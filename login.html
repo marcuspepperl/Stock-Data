@@ -1,10 +1,9 @@
 <html>	
 	<head>
-		<link rel="stylesheet" href="index.css">
+		<link rel="stylesheet" href="login.css">
 		<script type="text/javascript" src="index.js"></script>
 	</head>
 	<body onload="startup();">
-		<span></span>
 		<ul id="navbar">
 		  <li><a href="index.html">Home</a></li>
 		  <li><a href="about.html">About</a></li>
@@ -13,5 +12,13 @@
 		  <li><a href="register.html">Register</a></li>
 		</ul>
 		<span id="date"></span>
+		<div id="main">
+	    	<h1>Login</h1>
+		    <form action="login.php">
+			    <input type="text" name="username" placeholder="Username"/>
+			    <input type="password" name="password" placeholder="Password"/>
+			    <button type="submit">Submit</button>
+		  	</form>
+	  	</div>
 	</body>
 </html>
