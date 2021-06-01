@@ -50,7 +50,7 @@
         echo "Your email is " . $user['email'];
         
         // Set preferences
-        $_SESSION['background-color'] = "red";
+        $_SESSION['username'] = $username;
         
         mysqli_close($conn);
         ?>

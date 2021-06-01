@@ -13,6 +13,9 @@ function correctVal(val) {
 	}
 }
 
+function changeBackgroundColor() {
+	document.body.style.backgroundColor = document.getElementById("colorInput").value;
+}
 
 // Update the date and time each second
 function startup() {
