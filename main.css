@@ -33,8 +33,18 @@ h1 {
   	text-decoration: none;
 }
 
+#navbar li a {
+	color: white;
+	text-decoration: none;
+}
+
 #navbar li a:hover {
   	background-color: #111;
+}
+
+#logoutBtn {
+	padding: 0px;
+	background-color: #333;
 }
 
 #date {
@@ -61,8 +71,8 @@ h1 {
 	height: 10%;
 }
 
-input[type="text"],
-input[type="password"] {
+#main input[type="text"],
+#main input[type="password"] {
 	display: block;
 	box-sizing: border-box;
 	margin-bottom: 20px;
@@ -78,7 +88,7 @@ input[type="password"] {
 	transition: 0.2s ease;
 }
 
-input[type="color"] {
+#main input[type="color"] {
 	display: block;
 	box-sizing: border-box;
 	margin-bottom: 20px;
@@ -91,14 +101,14 @@ input[type="color"] {
 	transition: 0.2s ease;
 }
 
-input[type="text"]:focus,
-input[type="password"]:focus {
+#main input[type="text"]:focus,
+#main input[type="password"]:focus {
 	border-bottom: 2px solid #16a085;
 	color: #000;
 	transition: 0.2s ease;
 }
 
-button[type="submit"] {
+#main button[type="submit"] {
 	margin-top: 28px;
 	width: 120px;
 	height: 32px;
@@ -113,14 +123,14 @@ button[type="submit"] {
 	cursor: pointer;
 }
 
-button[type="submit"]:hover,
-button[type="submit"]:focus {
+#main button[type="submit"]:hover,
+#main button[type="submit"]:focus {
 	opacity: 0.8;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
 	transition: 0.1s ease;
 }
 
-button[type="submit"]:active {
+#main button[type="submit"]:active {
 	opacity: 1;
 	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
 	transition: 0.1s ease;

@@ -3,40 +3,39 @@
 		<link rel="stylesheet" href="main.css">
 	</head>
 	<body>
-		<?php
-        function generate_insert($username, $email, $password) {
-            return "INSERT INTO `login-information` (`id`, `username`, `email`, `password`)
-                VALUES (NULL, '$username', '$email', '$password');";
-        }
-        
-        function test_input($data) {
-            $data = trim($data);
-            $data = stripslashes($data);
-            $data = htmlspecialchars($data);
-            return $data;
-        }
-        
-        // Get basic database information
-        $serverName = "localhost";
-        $serverUsername = "root";
-        $serverPassword = "root";
-        $databaseName = "stock-data";
-        
-        $conn = mysqli_connect($serverName, $serverUsername, $serverPassword, $databaseName);
-        
-        if (!$conn) {
-            die("Connection failed: " . mysqli_connect_error());
-        }
-        echo "Connected Successfully<br>";
-        
-        // Gather form data
-        $color = "";
-        $color = test_input($_GET['color']);
-        
-        echo "The username is " . $_SESSION['username'];
-        echo "The color is " . $color;
-        
-        mysqli_close($conn);
+		<?php 
+            function generate_insert($username, $email, $password) {
+                return "INSERT INTO `login-information` (`id`, `username`, `email`, `password`)
+                    VALUES (NULL, '$username', '$email', '$password');";
+            }
+            
+            function test_input($data) {
+                $data = trim($data);
+                $data = stripslashes($data);
+                $data = htmlspecialchars($data);
+                return $data;
+            }
+            
+            function handle_peferences() {
+                
+                session_start();
+                
+                // Gather form data
+                $color = null;
+                $value = null;
+                $color = test_input($_GET['color']);
+                $value = test_input($_GET['value']);
+                
+                if (isset($_SESSION['username'])) {
+                    $_SESSION['prefColor'] = $color;
+                    $_SESSION['prefValue'] = $value;
+                }
+               
+                $_COOKIE['prefColor'] = $color;
+                $_COOKIE['prefValue'] = $value;
+            }
+            
+            handle_preferences();
         ?>
 	</body>
 </html>
