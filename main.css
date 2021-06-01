@@ -47,7 +47,7 @@ h1 {
 	background-color: #333;
 }
 
-#date {
+#dateInfo {
 	float: right;
 }
 
@@ -71,8 +71,22 @@ h1 {
 	height: 10%;
 }
 
+#updateInfo {
+	float: left;
+	width: 70%;
+	height: 100%;
+}
+
+#loginInfo {
+	float: left;
+	width: 30%;
+	height: 100%;
+	text-align: right;
+}
+
 #main input[type="text"],
-#main input[type="password"] {
+#main input[type="password"],
+#main input[type="number"] {
 	display: block;
 	box-sizing: border-box;
 	margin-bottom: 20px;

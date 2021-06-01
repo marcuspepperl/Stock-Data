@@ -92,6 +92,7 @@
                 
                 setcookie('prefColor', $pref['prefColor'], time() + (86400 * 30), "/");
                 setcookie('prefValue', $pref['prefValue'], time() + (86400 * 30), "/");
+                setcookie('username', $username, time() + (86400 * 30), "/");
                 
                 mysqli_close($conn);
                 

@@ -1,7 +1,7 @@
 // Update the date and time
 function setDate() {
 	let date = new Date();
-	document.getElementById("date").innerHTML = correctVal(date.getMonth() + 1) + "/" + correctVal(date.getDate()) + "/" + correctVal((date.getFullYear() % 1000)) + " " + 
+	document.getElementById("dateInfo").innerHTML = correctVal(date.getMonth() + 1) + "/" + correctVal(date.getDate()) + "/" + correctVal((date.getFullYear() % 1000)) + " " + 
 	correctVal(date.getHours()) + ":" + correctVal(date.getMinutes()) + ":" + correctVal(date.getSeconds());
 }
 
@@ -24,12 +24,21 @@ function reqListener () {
 // Run each time the current page is loaded
 function startup() {
 	let prefColor = getCookie('prefColor');
+	alert(prefColor);
 	if (prefColor == null || prefColor == "") {
 		console.log("The preferred color is not set\n");
 	} else {
 		document.body.style.backgroundColor = prefColor;
 	}
 	console.log("The preferred value is " + getCookie('prefValue'));
+	
+	let username = getCookie('username');
+	if (username == null || username == "") {
+		console.log("The username is not set\n");
+		document.getElementById("loginInfo").innerHTML = "Not logged in";
+	} else {
+		document.getElementById("loginInfo").innerHTML = "Logged in as " + username;
+	}
 	
 	// Set the current date and time
 	window.setInterval(setDate, 1000);

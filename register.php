@@ -68,22 +68,22 @@
             
             // Validate form data
             if ($usernameLength > 200) {
-                echo "Your username is too long!";
+                echo "Your username is too long!<br>";
                 mysqli_close($conn);
                 die();
             }
             if ($passwordLength < 7 || $passwordLength > 200) {
-                echo "Your password is an improper length!";
+                echo "Your password is an improper length!<br>";
                 mysqli_close($conn);
                 die();
             }
             if ($password != $password2) {
-                echo "Your passwords do not match!";
+                echo "Your passwords do not match!<br>";
                 mysqli_close($conn);
                 die();
             }
             if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-                echo "Your email is not formatted correctly!";
+                echo "Your email is not formatted correctly!<br>";
                 mysqli_close($conn);
                 die();
             }
@@ -94,7 +94,7 @@
             $email_query = mysqli_query($conn, $sql_email_select);
             
             if (mysqli_affected_rows($conn) > 0) {
-                echo "Your email is already being used!";
+                echo "Your email is already being used!<br>";
                 mysqli_close($conn);
                 die();
             }
@@ -104,7 +104,7 @@
             $username_query = mysqli_query($conn, $sql_username_select);
             
             if (mysqli_affected_rows($conn) > 0) {
-                echo "Your username is already being used!";
+                echo "Your username is already being used!<br>";
                 mysqli_close($conn);
                 die();
             }
@@ -113,7 +113,7 @@
             $sql_login_insert = generate_login_insert($username, $email, $password);
             
             if (mysqli_query($conn, $sql_login_insert)) {
-                echo "Login information created sucessfully!";
+                echo "Login information created sucessfully!<br>";
             } else {
                 echo "Error: " . $sql_login_insert . "<br>" . mysqli_error($conn);
                 mysqli_close($conn);
@@ -123,7 +123,7 @@
             $sql_preferences_insert = generate_preferences_insert($username);
             
             if (mysqli_query($conn, $sql_preferences_insert)) {
-                echo "Preferences information created sucessfully!";
+                echo "Preferences information created sucessfully!<br>";
             } else {
                 echo "Error: " . $sql_preferences_insert . "<br>" . mysqli_error($conn);
                 mysqli_close($conn);
@@ -141,7 +141,7 @@
             // Set cookies to default values
             setcookie('prefColor', null, time() + (86400 * 30), "/");
             setcookie('prefValue', null, time() + (86400 * 30), "/");
-            
+            setcookie('username', $username, time() + (86400 * 30), "/");
             
             mysqli_close($conn);
         ?>

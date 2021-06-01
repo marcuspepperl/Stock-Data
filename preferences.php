@@ -4,11 +4,6 @@
 	</head>
 	<body>
 		<?php 
-            function generate_insert($username, $email, $password) {
-                return "INSERT INTO `login-information` (`id`, `username`, `email`, `password`)
-                    VALUES (NULL, '$username', '$email', '$password');";
-            }
-            
             function test_input($data) {
                 $data = trim($data);
                 $data = stripslashes($data);
@@ -31,8 +26,10 @@
                     $_SESSION['prefValue'] = $value;
                 }
                
-                $_COOKIE['prefColor'] = $color;
-                $_COOKIE['prefValue'] = $value;
+                setcookie('prefColor', $color, time() + (86400 * 30), "/");
+                setcookie('prefValue', $value, time() + (86400 * 30), "/");
+                
+                echo "Cookies have been set";
             }
             
             handle_preferences();
