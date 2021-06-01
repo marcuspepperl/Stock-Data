@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<link rel="stylesheet" href="index.css">
+		<link rel="stylesheet" href="main.css">
 	</head>
 	<body>
 		<?php
@@ -14,6 +14,8 @@
             $data = htmlspecialchars($data);
             return $data;
         }
+        
+        session_start();
         
         // Get basic database information
         $serverName = "localhost";

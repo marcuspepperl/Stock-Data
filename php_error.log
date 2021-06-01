@@ -1,0 +1,180 @@
+[31-May-2021 14:51:32 UTC] PHP Warning:  A non-numeric value encountered in /Applications/MAMP/htdocs/form-demo/download.php on line 26
+[31-May-2021 14:51:32 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /Applications/MAMP/htdocs/form-demo/download.php on line 28
+[31-May-2021 14:54:35 UTC] PHP Warning:  A non-numeric value encountered in /Applications/MAMP/htdocs/form-demo/download.php on line 26
+[31-May-2021 14:54:35 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /Applications/MAMP/htdocs/form-demo/download.php on line 28
+[31-May-2021 14:57:52 UTC] PHP Warning:  A non-numeric value encountered in /Applications/MAMP/htdocs/form-demo/download.php on line 26
+[31-May-2021 14:57:52 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /Applications/MAMP/htdocs/form-demo/download.php on line 28
+[31-May-2021 14:59:27 UTC] PHP Warning:  A non-numeric value encountered in /Applications/MAMP/htdocs/form-demo/download.php on line 26
+[31-May-2021 15:03:22 UTC] PHP Warning:  A non-numeric value encountered in /Applications/MAMP/htdocs/form-demo/download.php on line 30
+[31-May-2021 15:09:09 UTC] PHP Warning:  A non-numeric value encountered in /Applications/MAMP/htdocs/form-demo/download.php on line 35
+[31-May-2021 15:09:10 UTC] PHP Warning:  A non-numeric value encountered in /Applications/MAMP/htdocs/form-demo/download.php on line 35
+[31-May-2021 15:09:10 UTC] PHP Warning:  A non-numeric value encountered in /Applications/MAMP/htdocs/form-demo/download.php on line 35
+[31-May-2021 15:09:11 UTC] PHP Warning:  A non-numeric value encountered in /Applications/MAMP/htdocs/form-demo/download.php on line 35
+[31-May-2021 15:10:02 UTC] PHP Warning:  A non-numeric value encountered in /Applications/MAMP/htdocs/form-demo/download.php on line 35
+[31-May-2021 15:11:04 UTC] PHP Warning:  A non-numeric value encountered in /Applications/MAMP/htdocs/form-demo/download.php on line 35
+[31-May-2021 15:11:04 UTC] PHP Warning:  A non-numeric value encountered in /Applications/MAMP/htdocs/form-demo/download.php on line 35
+[31-May-2021 15:11:05 UTC] PHP Warning:  A non-numeric value encountered in /Applications/MAMP/htdocs/form-demo/download.php on line 35
+[31-May-2021 18:12:51 UTC] PHP Warning:  Use of undefined constant usernameLength - assumed 'usernameLength' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/stock-data/register.php on line 52
+[31-May-2021 18:12:51 UTC] PHP Warning:  Use of undefined constant passwordLength - assumed 'passwordLength' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/stock-data/register.php on line 57
+[31-May-2021 18:12:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function alert() in /Applications/MAMP/htdocs/stock-data/register.php:58
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/stock-data/register.php on line 58
+[31-May-2021 18:13:34 UTC] PHP Warning:  Use of undefined constant usernameLength - assumed 'usernameLength' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/stock-data/register.php on line 52
+[31-May-2021 18:13:34 UTC] PHP Warning:  Use of undefined constant passwordLength - assumed 'passwordLength' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/stock-data/register.php on line 57
+[31-May-2021 18:13:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function alert() in /Applications/MAMP/htdocs/stock-data/register.php:58
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/stock-data/register.php on line 58
+[31-May-2021 18:13:35 UTC] PHP Warning:  Use of undefined constant usernameLength - assumed 'usernameLength' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/stock-data/register.php on line 52
+[31-May-2021 18:13:35 UTC] PHP Warning:  Use of undefined constant passwordLength - assumed 'passwordLength' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/stock-data/register.php on line 57
+[31-May-2021 18:13:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function alert() in /Applications/MAMP/htdocs/stock-data/register.php:58
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/stock-data/register.php on line 58
+[31-May-2021 18:13:35 UTC] PHP Warning:  Use of undefined constant usernameLength - assumed 'usernameLength' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/stock-data/register.php on line 52
+[31-May-2021 18:13:35 UTC] PHP Warning:  Use of undefined constant passwordLength - assumed 'passwordLength' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/stock-data/register.php on line 57
+[31-May-2021 18:13:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function alert() in /Applications/MAMP/htdocs/stock-data/register.php:58
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/stock-data/register.php on line 58
+[31-May-2021 18:14:27 UTC] PHP Warning:  Use of undefined constant usernameLength - assumed 'usernameLength' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/stock-data/register.php on line 52
+[31-May-2021 18:14:27 UTC] PHP Warning:  Use of undefined constant passwordLength - assumed 'passwordLength' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/stock-data/register.php on line 57
+[31-May-2021 18:14:28 UTC] PHP Warning:  Use of undefined constant usernameLength - assumed 'usernameLength' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/stock-data/register.php on line 52
+[31-May-2021 18:14:28 UTC] PHP Warning:  Use of undefined constant passwordLength - assumed 'passwordLength' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/stock-data/register.php on line 57
+[31-May-2021 18:14:28 UTC] PHP Warning:  Use of undefined constant usernameLength - assumed 'usernameLength' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/stock-data/register.php on line 52
+[31-May-2021 18:14:28 UTC] PHP Warning:  Use of undefined constant passwordLength - assumed 'passwordLength' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/stock-data/register.php on line 57
+[31-May-2021 18:14:29 UTC] PHP Warning:  Use of undefined constant usernameLength - assumed 'usernameLength' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/stock-data/register.php on line 52
+[31-May-2021 18:14:29 UTC] PHP Warning:  Use of undefined constant passwordLength - assumed 'passwordLength' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/stock-data/register.php on line 57
+[31-May-2021 18:14:29 UTC] PHP Warning:  Use of undefined constant usernameLength - assumed 'usernameLength' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/stock-data/register.php on line 52
+[31-May-2021 18:14:29 UTC] PHP Warning:  Use of undefined constant passwordLength - assumed 'passwordLength' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/stock-data/register.php on line 57
+[31-May-2021 18:14:56 UTC] PHP Warning:  Use of undefined constant usernameLength - assumed 'usernameLength' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/stock-data/register.php on line 52
+[31-May-2021 18:14:56 UTC] PHP Warning:  Use of undefined constant passwordLength - assumed 'passwordLength' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/stock-data/register.php on line 57
+[31-May-2021 18:15:12 UTC] PHP Warning:  Use of undefined constant usernameLength - assumed 'usernameLength' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/stock-data/register.php on line 52
+[31-May-2021 18:15:12 UTC] PHP Warning:  Use of undefined constant passwordLength - assumed 'passwordLength' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/stock-data/register.php on line 57
+[31-May-2021 18:15:13 UTC] PHP Warning:  Use of undefined constant usernameLength - assumed 'usernameLength' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/stock-data/register.php on line 52
+[31-May-2021 18:15:13 UTC] PHP Warning:  Use of undefined constant passwordLength - assumed 'passwordLength' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/stock-data/register.php on line 57
+[31-May-2021 18:16:00 UTC] PHP Warning:  Use of undefined constant usernameLength - assumed 'usernameLength' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/stock-data/register.php on line 52
+[31-May-2021 18:16:00 UTC] PHP Warning:  Use of undefined constant passwordLength - assumed 'passwordLength' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/stock-data/register.php on line 57
+[31-May-2021 18:16:00 UTC] PHP Warning:  Use of undefined constant usernameLength - assumed 'usernameLength' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/stock-data/register.php on line 52
+[31-May-2021 18:16:00 UTC] PHP Warning:  Use of undefined constant passwordLength - assumed 'passwordLength' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/stock-data/register.php on line 57
+[31-May-2021 18:16:01 UTC] PHP Warning:  Use of undefined constant usernameLength - assumed 'usernameLength' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/stock-data/register.php on line 52
+[31-May-2021 18:16:01 UTC] PHP Warning:  Use of undefined constant passwordLength - assumed 'passwordLength' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/stock-data/register.php on line 57
+[31-May-2021 18:16:01 UTC] PHP Warning:  Use of undefined constant usernameLength - assumed 'usernameLength' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/stock-data/register.php on line 52
+[31-May-2021 18:16:01 UTC] PHP Warning:  Use of undefined constant passwordLength - assumed 'passwordLength' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/stock-data/register.php on line 57
+[31-May-2021 18:16:01 UTC] PHP Warning:  Use of undefined constant usernameLength - assumed 'usernameLength' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/stock-data/register.php on line 52
+[31-May-2021 18:16:01 UTC] PHP Warning:  Use of undefined constant passwordLength - assumed 'passwordLength' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/stock-data/register.php on line 57
+[31-May-2021 18:16:01 UTC] PHP Warning:  Use of undefined constant usernameLength - assumed 'usernameLength' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/stock-data/register.php on line 52
+[31-May-2021 18:16:01 UTC] PHP Warning:  Use of undefined constant passwordLength - assumed 'passwordLength' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/stock-data/register.php on line 57
+[31-May-2021 18:16:02 UTC] PHP Warning:  Use of undefined constant usernameLength - assumed 'usernameLength' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/stock-data/register.php on line 52
+[31-May-2021 18:16:02 UTC] PHP Warning:  Use of undefined constant passwordLength - assumed 'passwordLength' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/stock-data/register.php on line 57
+[31-May-2021 18:16:02 UTC] PHP Warning:  Use of undefined constant usernameLength - assumed 'usernameLength' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/stock-data/register.php on line 52
+[31-May-2021 18:16:02 UTC] PHP Warning:  Use of undefined constant passwordLength - assumed 'passwordLength' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/stock-data/register.php on line 57
+[31-May-2021 18:16:16 UTC] PHP Warning:  Use of undefined constant usernameLength - assumed 'usernameLength' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/stock-data/register.php on line 52
+[31-May-2021 18:16:16 UTC] PHP Warning:  Use of undefined constant passwordLength - assumed 'passwordLength' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/stock-data/register.php on line 57
+[31-May-2021 18:16:26 UTC] PHP Warning:  Use of undefined constant usernameLength - assumed 'usernameLength' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/stock-data/register.php on line 52
+[31-May-2021 18:16:26 UTC] PHP Warning:  Use of undefined constant passwordLength - assumed 'passwordLength' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/stock-data/register.php on line 57
+[31-May-2021 18:16:57 UTC] PHP Warning:  Use of undefined constant usernameLength - assumed 'usernameLength' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/stock-data/register.php on line 52
+[31-May-2021 18:16:57 UTC] PHP Warning:  Use of undefined constant passwordLength - assumed 'passwordLength' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/stock-data/register.php on line 57
+[31-May-2021 18:18:38 UTC] PHP Warning:  Use of undefined constant usernameLength - assumed 'usernameLength' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/stock-data/register.php on line 52
+[31-May-2021 18:18:38 UTC] PHP Warning:  Use of undefined constant passwordLength - assumed 'passwordLength' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/stock-data/register.php on line 57
+[31-May-2021 18:19:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function generate_sql_insert() in /Applications/MAMP/htdocs/stock-data/register.php:95
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/stock-data/register.php on line 95
+[31-May-2021 18:21:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function generate_sql_insert() in /Applications/MAMP/htdocs/stock-data/register.php:96
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/stock-data/register.php on line 96
+[31-May-2021 18:21:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function generate_sql_insert() in /Applications/MAMP/htdocs/stock-data/register.php:96
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/stock-data/register.php on line 96
+[31-May-2021 18:21:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function generate_sql_insert() in /Applications/MAMP/htdocs/stock-data/register.php:96
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/stock-data/register.php on line 96
+[31-May-2021 18:21:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function generate_sql_insert() in /Applications/MAMP/htdocs/stock-data/register.php:96
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/stock-data/register.php on line 96
+[31-May-2021 18:21:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function generate_sql_insert() in /Applications/MAMP/htdocs/stock-data/register.php:96
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/stock-data/register.php on line 96
+[31-May-2021 18:21:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function generate_sql_insert() in /Applications/MAMP/htdocs/stock-data/register.php:96
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/stock-data/register.php on line 96
+[31-May-2021 18:21:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function generate_sql_insert() in /Applications/MAMP/htdocs/stock-data/register.php:96
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/stock-data/register.php on line 96
+[31-May-2021 18:21:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function generate_sql_insert() in /Applications/MAMP/htdocs/stock-data/register.php:96
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/stock-data/register.php on line 96
+[31-May-2021 18:22:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function generate_sql_insert() in /Applications/MAMP/htdocs/stock-data/register.php:96
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/stock-data/register.php on line 96
+[31-May-2021 18:24:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function generate_sql_insert() in /Applications/MAMP/htdocs/stock-data/register.php:98
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/stock-data/register.php on line 98
+[31-May-2021 18:24:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function generate_sql_insert() in /Applications/MAMP/htdocs/stock-data/register.php:100
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/stock-data/register.php on line 100
+[31-May-2021 18:24:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function generate_sql_insert() in /Applications/MAMP/htdocs/stock-data/register.php:100
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/stock-data/register.php on line 100
+[31-May-2021 18:24:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function generate_sql_insert() in /Applications/MAMP/htdocs/stock-data/register.php:100
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/stock-data/register.php on line 100
+[31-May-2021 18:24:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function generate_sql_insert() in /Applications/MAMP/htdocs/stock-data/register.php:100
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/stock-data/register.php on line 100
+[31-May-2021 18:36:01 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /Applications/MAMP/htdocs/stock-data/login.php on line 49
+[31-May-2021 18:36:01 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/stock-data/login.php on line 50
+[31-May-2021 18:36:17 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /Applications/MAMP/htdocs/stock-data/login.php on line 49
+[31-May-2021 18:36:17 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/stock-data/login.php on line 50
+[31-May-2021 18:36:18 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /Applications/MAMP/htdocs/stock-data/login.php on line 49
+[31-May-2021 18:36:18 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/stock-data/login.php on line 50
+[31-May-2021 18:36:18 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /Applications/MAMP/htdocs/stock-data/login.php on line 49
+[31-May-2021 18:36:18 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/stock-data/login.php on line 50
+[31-May-2021 18:36:18 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /Applications/MAMP/htdocs/stock-data/login.php on line 49
+[31-May-2021 18:36:18 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/stock-data/login.php on line 50
+[31-May-2021 18:36:24 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /Applications/MAMP/htdocs/stock-data/login.php on line 49
+[31-May-2021 18:36:24 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/stock-data/login.php on line 50
+[31-May-2021 18:36:26 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /Applications/MAMP/htdocs/stock-data/login.php on line 49
+[31-May-2021 18:36:26 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/stock-data/login.php on line 50
+[31-May-2021 18:36:27 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /Applications/MAMP/htdocs/stock-data/login.php on line 49
+[31-May-2021 18:36:27 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/stock-data/login.php on line 50
+[31-May-2021 18:36:31 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /Applications/MAMP/htdocs/stock-data/login.php on line 49
+[31-May-2021 18:36:31 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/stock-data/login.php on line 50
+[31-May-2021 18:36:31 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /Applications/MAMP/htdocs/stock-data/login.php on line 49
+[31-May-2021 18:36:31 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/stock-data/login.php on line 50
+[31-May-2021 18:37:02 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /Applications/MAMP/htdocs/stock-data/login.php on line 51
+[31-May-2021 18:37:02 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/stock-data/login.php on line 52
+[31-May-2021 18:37:02 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /Applications/MAMP/htdocs/stock-data/login.php on line 51
+[31-May-2021 18:37:02 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/stock-data/login.php on line 52
+[31-May-2021 18:37:04 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /Applications/MAMP/htdocs/stock-data/login.php on line 51
+[31-May-2021 18:37:04 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/stock-data/login.php on line 52
+[31-May-2021 18:37:04 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /Applications/MAMP/htdocs/stock-data/login.php on line 51
+[31-May-2021 18:37:04 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/stock-data/login.php on line 52
+[31-May-2021 18:37:05 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /Applications/MAMP/htdocs/stock-data/login.php on line 51
+[31-May-2021 18:37:05 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/stock-data/login.php on line 52
+[31-May-2021 18:37:40 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /Applications/MAMP/htdocs/stock-data/login.php on line 52
+[31-May-2021 18:37:40 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/stock-data/login.php on line 53
+[31-May-2021 20:07:05 UTC] PHP Notice:  Undefined index: username in /Applications/MAMP/htdocs/stock-data/preferences.php on line 35
+[31-May-2021 20:07:05 UTC] PHP Notice:  Undefined index: email in /Applications/MAMP/htdocs/stock-data/preferences.php on line 36
+[31-May-2021 20:07:05 UTC] PHP Notice:  Undefined index: password in /Applications/MAMP/htdocs/stock-data/preferences.php on line 37
+[31-May-2021 20:07:05 UTC] PHP Notice:  Undefined index: password2 in /Applications/MAMP/htdocs/stock-data/preferences.php on line 38
+[31-May-2021 20:12:41 UTC] PHP Notice:  Undefined variable: _SESSION in /Applications/MAMP/htdocs/stock-data/preferences.php on line 36
+[31-May-2021 20:12:41 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/stock-data/preferences.php on line 36
+[31-May-2021 20:13:46 UTC] PHP Notice:  Undefined variable: _SESSION in /Applications/MAMP/htdocs/stock-data/preferences.php on line 36
+[31-May-2021 20:13:46 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/stock-data/preferences.php on line 36
