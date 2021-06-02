@@ -1,9 +1,9 @@
 <html>
 	<head>
-		<link rel="stylesheet" href="main.css">
+		<link rel="stylesheet" href="index.css">
 	</head>
 	<body>
-    		<?php
+		<?php
     		function connect_to_database() {
     		    // Get basic database information
     		    $serverName = "localhost";

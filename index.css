@@ -79,7 +79,8 @@ h1 {
 
 #main input[type="text"],
 #main input[type="password"],
-#main input[type="number"] {
+#main input[type="number"],
+#main input[type="date"] {
 	display: block;
 	box-sizing: border-box;
 	margin-bottom: 20px;
@@ -109,7 +110,9 @@ h1 {
 }
 
 #main input[type="text"]:focus,
-#main input[type="password"]:focus {
+#main input[type="password"]:focus,
+#main input[type="number"]:focus,
+#main input[type="date"]:focus {
 	border-bottom: 2px solid #16a085;
 	color: #000;
 	transition: 0.2s ease;

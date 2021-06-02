@@ -1,12 +1,10 @@
 <html>
 	<head>
-		<link rel="stylesheet" href="main.css">
+		<link rel="stylesheet" href="index.css">
 	</head>
 	<body>
 		<?php
             session_start();
-            
-            print_r($_SESSION);
         ?>
 	</body>
 </html>
