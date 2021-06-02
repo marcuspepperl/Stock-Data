@@ -61,9 +61,85 @@ function getCookie(cname) {
 }
 
 function getData() {
-	let stockTicker = document.getElementById("stockTicker");
-	let startDate = document.getElementById("startDate");
-	let endDate = document.getElementById("endDate");
+	let stockTicker = document.getElementById("stockTicker").value;
+	let startDate = document.getElementById("startDate").value;
+	let endDate = document.getElementById("endDate").value;
 	
-	console.log("stockTicker");
+	if (isNullOrEmpty(stockTicker) || isNullOrEmpty(startDate) || isNullOrEmpty(endDate)) {
+		writeStockError("All form values must be set");
+		return;
+	}
+	
+	if (new Date(endDate) < new Date(startDate)) {
+		writeStockError("The end date cannot precede the start date");
+		return;
+	}
+	
+	clearStockError();
+	
+	let xmlhttp = new XMLHttpRequest();
+	xmlhttp.onreadystatechange = function() {
+		if (this.readyState == 4 && this.status == 200) {
+			if (this.responseText == "error") {
+				writeStockError("There was a fatal server error");
+			} else {
+				let data = this.responseText.split("&");
+				addStockTableEntry(data[0], data[1], data[2], startDate, endDate);
+			}
+		}
+	};
+	
+	xmlhttp.open("GET", generateGetRequest(stockTicker, startDate, endDate), true);	
+	xmlhttp.send();
+}
+
+function generateGetRequest(stockTicker, startDate, endDate) {
+	return "http://127.0.0.1:5000/?stockTicker=" + stockTicker + "&startDate=" + startDate + "&endDate=" + endDate;
+}
+
+function isNullOrEmpty(str) {
+	return str == null || str == "";
+}
+
+function writeStockError(str) {
+	document.getElementById("errorText").innerHTML = "*" + str;
+}
+
+function clearStockError() {
+	document.getElementById("errorText").innerHTML = "";
+}
+
+function addStockTableEntry(stockTicker, lowPrice, highPrice, startDate, endDate) {
+	let tableElem = document.getElementById("stockTable");
+	let newRowElem = document.createElement("tr");
+	tableElem.appendChild(newRowElem);
+	
+	let stockTickerElem = document.createElement("td");
+	stockTickerElem.appendChild(document.createTextNode(stockTicker));
+	
+	let lowElem = document.createElement("td");
+	lowElem.appendChild(document.createTextNode(lowPrice));
+	
+	let highElem = document.createElement("td");
+	highElem.appendChild(document.createTextNode(highPrice));
+	
+	let startElem = document.createElement("td");
+	startElem.appendChild(document.createTextNode(startDate));
+	
+	let endElem = document.createElement("td");
+	endElem.appendChild(document.createTextNode(endDate));
+	
+	newRowElem.appendChild(stockTickerElem);
+	newRowElem.appendChild(lowElem);
+	newRowElem.appendChild(highElem);	
+	newRowElem.appendChild(startElem);	
+	newRowElem.appendChild(endElem);	
+}
+
+function clearStockTable() {
+	// Do something
+	let tableElem = document.getElementById("stockTable");
+	while (tableElem.childElementCount > 1) {
+		tableElem.removeChild(tableElem.lastElementChild);
+	}
 }

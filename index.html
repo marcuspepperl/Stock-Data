@@ -29,16 +29,27 @@
 			    <p>End Date</p>
 			    <input id="endDate" type="date"/>
 			    <button type="submit" onclick="getData();">Submit</button>
+			    <p id="errorText"></p>
 			</div>
 		  	<div id="stockDisplay">
 		  		<h1>Stock Display</h1>
+		  		<table id="stockTable">
+				  <tr>
+				    <th>Company</th>
+				    <th>Low Price</th>
+				    <th>High Price</th>
+				    <th>Start Date</th>
+				    <th>End Date</th>
+				  </tr>
+				</table>
+				<button type="submit" onclick="clearStockTable();">Clear Table</button>
 		  	</div>
 		</div>
 		<div id="footer">
 			<div id="updateInfo">
 				<div id="updateText">
 					Author: Mark Pepperl<br>
-					Last Updated: 06/01/21<br>
+					Last Updated: 06/02/21<br>
 				</div>
 			</div>
 			<div id="loginInfo">

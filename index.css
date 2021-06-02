@@ -77,6 +77,17 @@ h1 {
 	height: 80%;
 }
 
+table {
+	border-collapse: collapse;
+	width: 80%;
+}
+
+td, th {
+	border: 1px solid black;
+	text-align: left;
+	padding: 8px;
+}
+
 #stockForm {
 	float: left;
 	width: 40%;
@@ -87,6 +98,11 @@ h1 {
 	float: left;
 	width: 60%;
 	height: 100%;
+}
+
+#errorText {
+	color: red;
+	font-size: 14px;
 }
 
 #main input[type="text"],
