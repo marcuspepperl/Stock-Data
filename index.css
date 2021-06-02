@@ -77,6 +77,18 @@ h1 {
 	height: 80%;
 }
 
+#stockForm {
+	float: left;
+	width: 40%;
+	height: 100%;
+}
+
+#stockDisplay {
+	float: left;
+	width: 60%;
+	height: 100%;
+}
+
 #main input[type="text"],
 #main input[type="password"],
 #main input[type="number"],

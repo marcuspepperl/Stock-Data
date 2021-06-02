@@ -20,17 +20,19 @@
 			</div>
 		</div>
 		<div id="main">
-			<h1>Stock Information</h1>
-			<form action="index.php">
+			<div id="stockForm">
+				<h1>Stock Information</h1>
 				<p>Stock Ticker</p>
-			    <input type="text" name="ticker" placeholder="TSLA"/>
+			    <input id="stockTicker" type="text" placeholder="TSLA"/>
 			    <p>Start Date</p>
-			    <input type="date" name="startDate"/>
+			    <input id="startDate" type="date"/>
 			    <p>End Date</p>
-			    <input type="date" name="endDate"/>
-			    <button type="submit">Submit</button>
-		  	</form>
-		  	<div id="resultTable"></div>
+			    <input id="endDate" type="date"/>
+			    <button type="submit" onclick="getData();">Submit</button>
+			</div>
+		  	<div id="stockDisplay">
+		  		<h1>Stock Display</h1>
+		  	</div>
 		</div>
 		<div id="footer">
 			<div id="updateInfo">

@@ -48,7 +48,7 @@ function getCookie(cname) {
   var name = cname + "=";
   var decodedCookie = decodeURIComponent(document.cookie);
   var ca = decodedCookie.split(';');
-  for(var i = 0; i <ca.length; i++) {
+  for(var i = 0; i < ca.length; i++) {
     var c = ca[i];
     while (c.charAt(0) == ' ') {
       c = c.substring(1);
@@ -58,4 +58,12 @@ function getCookie(cname) {
     }
   }
   return "";
+}
+
+function getData() {
+	let stockTicker = document.getElementById("stockTicker");
+	let startDate = document.getElementById("startDate");
+	let endDate = document.getElementById("endDate");
+	
+	console.log("stockTicker");
 }
