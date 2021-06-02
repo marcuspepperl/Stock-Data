@@ -11,7 +11,7 @@
                 return $data;
             }
             
-            function handle_peferences() {
+            function handle_preferences() {
                 
                 session_start();
                 

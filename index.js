@@ -1,11 +1,11 @@
 // Update the date and time
 function setDate() {
 	let date = new Date();
-	document.getElementById("dateInfo").innerHTML = correctVal(date.getMonth() + 1) + "/" + correctVal(date.getDate()) + "/" + correctVal((date.getFullYear() % 1000)) + " " + 
-	correctVal(date.getHours()) + ":" + correctVal(date.getMinutes()) + ":" + correctVal(date.getSeconds());
+	document.getElementById("dateText").innerHTML = adjustVal(date.getMonth() + 1) + "/" + adjustVal(date.getDate()) + "/" + adjustVal((date.getFullYear() % 1000)) + " " + 
+	adjustVal(date.getHours()) + ":" + adjustVal(date.getMinutes()) + ":" + adjustVal(date.getSeconds());
 }
 
-function correctVal(val) {
+function adjustVal(val) {
 	if (val < 10) {
 		return "0" + val;
 	} else {
@@ -24,7 +24,6 @@ function reqListener () {
 // Run each time the current page is loaded
 function startup() {
 	let prefColor = getCookie('prefColor');
-	alert(prefColor);
 	if (prefColor == null || prefColor == "") {
 		console.log("The preferred color is not set\n");
 	} else {
@@ -35,9 +34,9 @@ function startup() {
 	let username = getCookie('username');
 	if (username == null || username == "") {
 		console.log("The username is not set\n");
-		document.getElementById("loginInfo").innerHTML = "Not logged in";
+		document.getElementById("loginText").innerHTML = "Not logged in";
 	} else {
-		document.getElementById("loginInfo").innerHTML = "Logged in as " + username;
+		document.getElementById("loginText").innerHTML = "Logged in as " + username;
 	}
 	
 	// Set the current date and time

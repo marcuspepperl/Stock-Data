@@ -1,19 +1,23 @@
 <html>	
 	<head>
-		<link rel="stylesheet" href="main.css">
+		<link rel="stylesheet" href="index.css">
 		<script type="text/javascript" src="index.js"></script>
 	</head>
 	<body onload="startup();">
-		<div id="top">
-			<ul id="navbar">
-			  <li><a href="index.html">Home</a></li>
-			  <li><a href="about.html">About</a></li>
-			  <li><a href="preferences.html">Preferences</a></li>
-			  <li><a href="login.html">Login</a></li>
-			  <li><a href="register.html">Register</a></li>
-			  <li><a href="logout.html">Logout</a></li>
-			</ul>
-			<span id="dateInfo"></span>
+		<div id="header">
+			<div id="navBar">
+				<ul id="navList">
+				  <li><a href="index.html">Home</a></li>
+				  <li><a href="about.html">About</a></li>
+				  <li><a href="preferences.html">Preferences</a></li>
+				  <li><a href="login.html">Login</a></li>
+				  <li><a href="register.html">Register</a></li>
+				  <li><a href="logout.html">Logout</a></li>
+				</ul>
+			</div>
+			<div id="dateInfo">
+				<div id="dateText"></div>
+			</div>
 		</div>
 		<div id="main">
 	    	<h1>Login</h1>
@@ -25,10 +29,14 @@
 	  	</div>
 	  	<div id="footer">
 			<div id="updateInfo">
-				Author: Mark Pepperl<br>
-				Last Updated: 06/01/21<br>
+				<div id="updateText">
+					Author: Mark Pepperl<br>
+					Last Updated: 06/01/21<br>
+				</div>
 			</div>
-			<div id="loginInfo"></div>
+			<div id="loginInfo">
+				<div id="loginText"></div>
+			</div>
 		</div>
 	</body>
 </html>

@@ -16,14 +16,28 @@ h1 {
 	font-size: 28px;
 }
 
-#navbar {
+#header {
+	float: left;
+	width: 100%;
+	height: 10%;
+}
+
+#navBar {
+	float: left;
+	width: 80%;
+	height: 100%;
+}
+
+#navList {
+	width: 100%;
+	height: 100%;
   	list-style-type: none;
   	margin: 0;
   	padding: 0;
   	overflow: none;
 }
 
-#navbar li {
+#navList li {
   	float: left;
   	background-color: #333;
   	display: block;
@@ -33,28 +47,26 @@ h1 {
   	text-decoration: none;
 }
 
-#navbar li a {
+#navList li a {
 	color: white;
 	text-decoration: none;
 }
 
-#navbar li a:hover {
+#navList li a:hover {
   	background-color: #111;
 }
 
-#logoutBtn {
-	padding: 0px;
-	background-color: #333;
-}
-
 #dateInfo {
-	float: right;
+	position: relative;
+	float: left;
+	width: 20%;
+	height: 100%;
 }
 
-#top {
-	float: left;
-	width: 100%;
-	height: 10%;
+#dateText {
+	position: absolute;
+	top: 5px;
+	right: 5px;
 }
 
 #main {
@@ -63,25 +75,6 @@ h1 {
 	padding: 10px 30px 10px 30px;
 	width: 100%;
 	height: 80%;
-}
-
-#footer {
-	float: left;
-	width: 100%;
-	height: 10%;
-}
-
-#updateInfo {
-	float: left;
-	width: 70%;
-	height: 100%;
-}
-
-#loginInfo {
-	float: left;
-	width: 30%;
-	height: 100%;
-	text-align: right;
 }
 
 #main input[type="text"],
@@ -148,4 +141,36 @@ h1 {
 	opacity: 1;
 	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
 	transition: 0.1s ease;
+}
+
+#footer {
+	float: left;
+	width: 100%;
+	height: 10%;
+}
+
+#updateInfo {
+	position: relative;
+	float: left;
+	width: 70%;
+	height: 100%;
+}
+
+#updateText {
+	position: absolute;
+	bottom: 5px;
+	left: 5px;
+}
+
+#loginInfo {
+	position: relative;
+	float: left;
+	width: 30%;
+	height: 100%;
+}
+
+#loginText {
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
 }

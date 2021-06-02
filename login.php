@@ -39,11 +39,7 @@
             function handle_login() {
                 session_start();
                 
-                if (isset($_COOKIE['prefColor'])) {
-                    echo "The preferred color is " . $_COOKIE['prefColor'];
-                }
-                
-                if (array_key_exists('username', $_SESSION)) {
+                if (isset($_SESSION['username'])) {
                     echo "You are already logged in!<br>";
                     die();
                 }
@@ -77,7 +73,7 @@
                 // Get preferences from database
                 $sql_pref_select = generate_pref_select($username);
     
-                $pref_query = mysqli_query($conn, $sql_select);
+                $pref_query = mysqli_query($conn, $sql_pref_select);
     
                 if (mysqli_affected_rows($conn) == 0) {
                     echo "Server error!";
@@ -96,7 +92,9 @@
                 
                 mysqli_close($conn);
                 
-                echo "Initialized all session variables and cookies!";
+                echo "Initialized all session variables and cookies!<br>";
+                
+                echo "The preferred color is " . $pref['prefColor'] . " and the preferred value is " . $pref['prefValue'] . "!<br>";
             }
             
             handle_login();
